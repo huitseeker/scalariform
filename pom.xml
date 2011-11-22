@@ -140,19 +140,24 @@
       </repositories>
     </profile>
     <profile>
-      <id>scala-trunk</id>
-      <activation>
-        <property>
-          <name>scala.version</name>
-          <value>2.10.0-SNAPSHOT</value>
-        </property>
-      </activation>
+      <id>scala-2.10.x</id>
       <repositories>
         <repository>
-          <id>scala-toolchain-trunk</id>
+          <id>scala-toolchain-2.10.x</id>
           <name>Scala Toolchain trunk p2 repository</name>
           <layout>p2</layout>
-          <url>${repo.scala-ide}/scala-eclipse-toolchain-osgi-trunk</url>
+          <url>${repo.scala-ide}/scala-eclipse-toolchain-osgi-210x</url>
+        </repository>
+      </repositories>
+    </profile>
+    <profile>
+      <id>scala-2.11.x</id>
+      <repositories>
+        <repository>
+          <id>scala-toolchain-2.11.x</id>
+          <name>Scala Toolchain trunk p2 repository</name>
+          <layout>p2</layout>
+          <url>${repo.scala-ide}/scala-eclipse-toolchain-osgi-211x</url>
         </repository>
       </repositories>
     </profile>
