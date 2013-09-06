@@ -81,7 +81,7 @@
           <format>yyyyMMddHHmm'-${buildNumber}'</format>
           <archiveSite>true</archiveSite>
         </configuration>
-      </plugin>    
+      </plugin>
       <plugin>
         <groupId>org.scala-tools</groupId>
         <artifactId>maven-scala-plugin</artifactId>
@@ -106,9 +106,9 @@
   </build>
   <repositories>
     <repository>
-      <id>galileo</id>
+      <id>juno</id>
       <layout>p2</layout>
-      <url>http://download.eclipse.org/releases/galileo</url>
+      <url>http://download.eclipse.org/releases/juno</url>
     </repository>
     <repository>
       <id>sonatype.release</id>
